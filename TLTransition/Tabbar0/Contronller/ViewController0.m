@@ -9,7 +9,6 @@
 #import "ViewController0.h"
 #import "ViewController01.h"
 #import "TableViewCell0.h"
-//#import "UIViewController+TLTransition.h"
 
 @interface ViewController0 ()<UITableViewDelegate ,UITableViewDataSource>
 
@@ -88,7 +87,7 @@
     
     UILabel *lab = [[UILabel alloc]init];
     lab.frame = bgView.bounds;
-    lab.text = @"仿照TLTransition动画";
+    lab.text = @"仿照AppStore动画";
     lab.font = [UIFont systemFontOfSize:15];
     [bgView addSubview:lab];
     return bgView;
